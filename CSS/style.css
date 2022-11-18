@@ -1,0 +1,88 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+
+body{
+  margin: 0;
+  padding-top: 5rem;
+}
+
+nav span
+{
+  font-family: 'Dancing Script', cursive;
+} 
+
+.banner,
+.menu,
+.contact
+{
+  background-color: rgb(215, 199, 163);
+  padding: 30px;
+}
+
+.concept,
+.access {
+ background-color: rgb(193, 167, 105);
+ padding: 30px;
+}
+
+.concept p{
+ padding-top: 50px;
+ padding-left: 140px;
+}
+
+.sp{
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+  .row {
+    text-align: center;
+  }
+
+  .concept h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+
+  .concept p{
+    padding: initial;
+    font-size: 12px;
+   }
+
+
+  .sp {
+    display: block;
+  }
+
+}
+
+
+.styling>a,
+.treatment>a,
+.eyelash>a,
+.nail>a
+ {
+  color: black;
+  transition-duration: 0.3s;
+}
+
+.styling>a:hover,
+.treatment>a:hover,
+.eyelash>a:hover,
+.nail>a:hover
+{
+  color: black;
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
